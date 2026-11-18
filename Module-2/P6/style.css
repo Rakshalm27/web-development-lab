@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     text-align: center;
     padding: 25px;
@@ -26,11 +26,11 @@ section {
 }
 
 h2 {
-    color: #263859;
+    color: #641E32;
 }
 
 footer {
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     text-align: center;
     padding: 15px;

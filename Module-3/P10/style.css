@@ -18,7 +18,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px 40px;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .hire-btn {
     padding: 10px 20px;
-    background-color: #dbeafe;
+    background-color: #F5EDEF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -61,7 +61,7 @@ main section {
 .intro {
     text-align: center;
     padding: 50px 20px;
-    background-color: #dbeafe;
+    background-color: #F5EDEF;
     border-radius: 10px;
 }
 
@@ -73,7 +73,7 @@ main section {
     justify-content: center;
     gap: 15px;
     padding: 30px;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     text-align: center;
 }

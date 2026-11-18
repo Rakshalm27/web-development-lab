@@ -17,7 +17,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 30px;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
 }
 
@@ -35,7 +35,7 @@ body {
 .intro {
     text-align: center;
     padding: 40px 20px;
-    background-color: #dbeafe;
+    background-color: #F5EDEF;
 }
 
 /* CSS Grid Comparison */
@@ -54,7 +54,7 @@ body {
 }
 
 .box h2 {
-    color: #263859;
+    color: #641E32;
     margin-bottom: 15px;
 }
 
@@ -72,14 +72,14 @@ body {
 }
 
 .project-grid div {
-    background-color: #dbeafe;
+    background-color: #F5EDEF;
     padding: 30px;
     border-radius: 8px;
 }
 
 /* Footer */
 footer {
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     text-align: center;
     padding: 20px;

@@ -13,7 +13,7 @@ body {
 .newspaper-header {
     text-align: center;
     padding: 30px;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     border-bottom: 5px solid #d4af37;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .news-column h2 {
-    color: #263859;
+    color: #641E32;
     border-bottom: 2px solid #d4af37;
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -60,7 +60,7 @@ body {
 
 footer {
     text-align: center;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     padding: 20px;
 }

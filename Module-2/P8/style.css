@@ -7,7 +7,7 @@ body {
 .navbar {
     position: sticky;
     top: 0;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
     padding: 15px 25px;
     display: flex;
@@ -23,7 +23,7 @@ body {
 }
 
 .hero {
-    background-color: #dbeafe;
+    background-color: #F5EDEF;
     padding: 60px 20px;
     text-align: center;
 }

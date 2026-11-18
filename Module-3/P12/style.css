@@ -13,7 +13,7 @@ body {
 header {
     text-align: center;
     padding: 40px;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
 }
 
@@ -47,14 +47,14 @@ main h2 {
 }
 
 .project h3 {
-    color: #263859;
+    color: #641E32;
     margin-bottom: 12px;
 }
 
 /* Featured project spans two columns */
 .featured {
     grid-column: span 2;
-    background-color: #dbeafe;
+    background-color: #F5EDEF;
 }
 
 /* Responsive layout */
@@ -81,6 +81,6 @@ main h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #263859;
+    background-color: #641E32;
     color: white;
 }
