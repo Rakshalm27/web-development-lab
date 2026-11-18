@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Flexbox Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    background-color: #263859;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #dbeafe;
+}
+
+/* CSS Grid Comparison */
+.comparison {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    color: #263859;
+    margin-bottom: 15px;
+}
+
+/* Shared Layout Example */
+.projects {
+    padding: 30px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-grid div {
+    background-color: #dbeafe;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #263859;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .comparison {
+        grid-template-columns: 1fr;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}

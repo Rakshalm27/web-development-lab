@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Advanced Flexbox Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 40px;
+    background-color: #263859;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navigation a,
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.hire-btn {
+    padding: 10px 20px;
+    background-color: #dbeafe;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    min-height: 400px;
+    padding: 40px;
+}
+
+.intro,
+main section {
+    margin-bottom: 30px;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #dbeafe;
+    border-radius: 10px;
+}
+
+/* Advanced Flexbox Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+    background-color: #263859;
+    color: white;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    font-size: 13px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .navigation {
+        flex-wrap: wrap;
+    }
+}

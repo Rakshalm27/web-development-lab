@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox vs CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Flexbox vs CSS Grid</h1>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <main id="home">
+        <section class="intro">
+            <h2>Choosing the Right Layout</h2>
+            <p>Flexbox and CSS Grid are useful tools for creating responsive websites.</p>
+        </section>
+
+        <section class="comparison" id="about">
+            <div class="box flexbox">
+                <h2>Flexbox</h2>
+                <p>Flexbox is used for arranging elements in one direction, either in a row or a column.</p>
+                <p>Example: Navigation bars and buttons.</p>
+            </div>
+
+            <div class="box grid">
+                <h2>CSS Grid</h2>
+                <p>CSS Grid is used for arranging elements in rows and columns together.</p>
+                <p>Example: Gallery and card layouts.</p>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Shared Layout Example</h2>
+            <div class="project-grid">
+                <div>Project 1</div>
+                <div>Project 2</div>
+                <div>Project 3</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Flexbox and Grid Layout</p>
+    </footer>
+
+</body>
+</html>
