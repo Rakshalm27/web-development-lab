@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #263859;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.hero {
+    background-color: #dbeafe;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Card overlay using CSS positioning */
+.card-section {
+    position: relative;
+    height: 220px;
+    margin: 30px;
+    background-color: #b8c9e6;
+    border-radius: 10px;
+}
+
+.card {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+section {
+    padding: 30px;
+    margin-bottom: 20px;
+}
